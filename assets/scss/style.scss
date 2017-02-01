@@ -1,4 +1,26 @@
-ul {
-  font-size: 20px;
-  background-color: black;
+@font-face {
+  font-family: "earthorbiter.ttf";
+  src: url(../fonts/earthorbiter.ttf) format("truetype");
 }
+
+@font-face {
+  font-family: "earthorbiterxtrabold.ttf";
+  src: url(../fonts/earthorbiterxtrabold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "EHSMB.TTF";
+  src: url(../fonts/EHSMB.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "FUTRFW.TTF";
+  src: url(../fonts/FUTRFW.TTF) format("truetype");
+}
+
+//fonts
+$EO: "earthorbiter";
+$EOXbold: "earthorbiterxtrabold";
+//container margins/width
+$container-margin: 0 auto;
+$container-width: 960px;
